@@ -171,7 +171,7 @@ START_TEST(test_2d_area_triangle)
     c.x = 25;
     b.y = 15;
     double res3 = coord_2d_area_triangle(&a, &b, &c);
-    ck_assert(res3 == 100);
+    ck_assert(res3 == 100.0);
 
 }
 END_TEST
